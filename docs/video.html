@@ -15,7 +15,7 @@
             <li class='topbutton'><a class="active" href="video.html">Video</a></li>
             </ul>
         </div>
-        <div class='videobox'>
+        <div class='bodybox'>
             <video id="video" width="640" height="360" controls preload="none">
                 <!-- MP4 must be first for iPad! -->
                 <source id="mp4" src="Media/v1.MP4" type="video/mp4" /><!-- WebKit video    -->
@@ -37,7 +37,9 @@
                 Open Format:    <a href="Media/v1.OGV">"OGG"</a>
             </p> -->
             </video>
-            <button class="nextvideo" id="left" onclick="moveLeft(event)">Option 1</button>
-            <button class="nextvideo" id="right" onclick="moveRight(event)">Option 2</button>
+            <div class="topbar"></div>
+                <button class="topbutton" id="left" onclick="moveLeft(event)">Option 1</button>
+                <button class="topbutton" id="right" onclick="moveRight(event)">Option 2</button>
+            </div>
         </div>
     </body> 
