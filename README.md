@@ -1,4 +1,4 @@
-# <b>Consolidation Project: A Day in Schenley Park</b>
+# <b>Consolidation Project: One Sleepless Night</b>
 ## An Interactive Video Narrative
 
 This is the repository for my consolidation project in Composing Digital Media (Spring 2021). Because the rationale behind the project is to explore the affordances of digital media topics discussed throughout the semester and integrate such skills into a collaborative digital project, I, along with my teammate Thomas, have decided to compose an interactive video that would incoporate visual principles, sound design, and web development aspects. All components for the project are explained below. *For more information regarding the assignment, please refer [here](https://benmiller314.github.io/cdm2021spring/projects).*
