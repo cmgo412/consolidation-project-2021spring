@@ -46,4 +46,26 @@ body {
     text-decoration: none;
     margin:3px;
 }
-
+.tv_container {
+    width: 785px; /* Adjust TV image width */
+    height: 488px; /* Adjust TV image height */
+    position: relative;
+}
+.tv_container:after {
+    content: '';
+    display: block;
+    background: url('Media/old-tv.png') no-repeat top left transparent;
+    background-size: auto 100%;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+.tv_container video {
+    position: absolute;
+    top: 60px; /* Adjust top position */
+    left: 70px; /* Adjust left position */
+    z-index: 5;
+}
