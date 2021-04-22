@@ -18,22 +18,26 @@
         <div class='videobox'>
             <video width="640" height="360" controls preload="none">
                 <!-- MP4 must be first for iPad! -->
-                <source src="Media/v1.MP4" type="video/mp4" /><!-- WebKit video    -->
-                <source src="Media/v1.webm" type="video/webm" /><!-- Chrome / Newest versions of Firefox and Opera -->
-                <source src="Media/v1.OGV" type="video/ogg" /><!-- Firefox / Opera -->
-                <!-- fallback to Flash: -->
+                <source id="mp4" src="Media/v1.MP4" type="video/mp4" /><!-- WebKit video    -->
+                <source id="webm" src="Media/v1.webm" type="video/webm" /><!-- Chrome / Newest versions of Firefox and Opera -->
+                <source id="ogv/ogg" src="Media/v1.OGV" type="video/ogg" /><!-- Firefox / Opera -->
+
+                <!-- For time constraint reasons, this portion was cut -->
+                <!-- fallback to Flash:
                 <object width="640" height="384" type="application/x-shockwave-flash" data="__FLASH__.SWF">
-                    <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+                     Firefox uses the `data` attribute above, IE/Safari uses the param below
                     <param name="movie" value="__FLASH__.SWF" />
                     <param name="flashvars" value="image=__POSTER__.JPG&amp;file=Media/v1.MP4" />
-                    <!-- fallback image. note the title field below, put the title of the video there -->
+                    <!-- fallback image. note the title field below, put the title of the video there
                     <img src="Media/v1.JPG" width="640" height="360" alt="__TITLE__"
                          title="No video playback capabilities, please try a different browser/device??" />
-                </object>
-            </video>
-            <!-- <p> <strong>Download Video:</strong>
+                </object> -->
+                 <!-- <p> <strong>Download Video:</strong>
                 Closed Format:  <a href="Media/v1.MP4">"MP4"</a>
                 Open Format:    <a href="Media/v1.OGV">"OGG"</a>
             </p> -->
+            </video>
+            <button class="nextvideo" id="left" onclick="moveLeft(event)">Option 1</button>
+            <button class="nextvideo" id="right" onclick="moveRight(event)">Option 2</button>
         </div>
     </body> 
