@@ -19,7 +19,17 @@ current.right = {
 function setup() {
 
 }
+function start(event) {
+    let left = document.getElementById("left");
+    let right = document.getElementById("right");
+    let start = document.getElementById("start");
+    start.remove();
+    left.className="button";
+    right.className="button";
 
+    let videoSourse = document.getElementById("video");
+    videoSourse.load();
+}
 function moveLeft(event) {
     current = current.left;
     if (current.left == null) {

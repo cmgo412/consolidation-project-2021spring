@@ -65,7 +65,13 @@ body {
 }
 .tv_container video {
     position: absolute;
-    top: 60px; /* Adjust top position */
+    top: 55px; /* Adjust top position */
     left: 70px; /* Adjust left position */
     z-index: 5;
+}
+.buttonHidden {
+    background-color: transparent;
+    color:transparent;
+    border-color: transparent;
+    cursor: default;
 }

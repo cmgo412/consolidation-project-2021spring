@@ -17,7 +17,7 @@
         </div>
         <div class='bodybox'>
             <div class='tv_container'>
-                <video id="video" width="460" height="350" controls preload="none">
+                <video id="video" width="460" height="370" autoplay="true">
                     <!-- MP4 must be first for iPad! -->
                     <source id="mp4" src="Media/v1.MP4" type="video/mp4" /><!-- WebKit video    -->
                     <source id="webm" src="Media/v1.webm" type="video/webm" /><!-- Chrome / Newest versions of Firefox and Opera -->
@@ -41,8 +41,9 @@
             </div>
 
             <div class="topbar"></div>
-                <button class="topbutton" id="left" onclick="moveLeft(event)">Option 1</button>
-                <button class="topbutton" id="right" onclick="moveRight(event)">Option 2</button>
+                <button class="button" id ="start" onclick="start(event)">Start</button>
+                <button  class="buttonHidden" id="left" onclick="moveLeft(event)">Option 1</button>
+                <button  class="buttonHidden" id="right" onclick="moveRight(event)">Option 2</button>
             </div>
         </div>
     </body> 
