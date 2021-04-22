@@ -1,0 +1,1 @@
+Thank you to Kroc Camen of Camen Design for the code that allows the video to run on most machines/browesrs.  <camendesign.com/code/video_for_everybody>
