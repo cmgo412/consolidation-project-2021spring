@@ -130,14 +130,8 @@ function start(event) {
     left.className="button";
     right.className="button";
 
-    // let videoSourse = document.getElementById("video");
-    // videoSourse.load();
-
-    let mp4 = document.getElementById("mp4");
-    mp4.src= "Media/footage/" + current.curVal + ".mp4";
-
-    let videoSourse = document.getElementById("video");
-    videoSourse.load();
+    let videoSource = document.getElementById("video");
+    videoSource.load();
 
 }
 function moveLeft(event) {
@@ -166,8 +160,8 @@ function moveLeft(event) {
     // let ogv = document.getElementById("ogv/ogg");
     // ogv.src= "Media/footage/" + current.curVal + ".OGV";
 
-    let videoSourse = document.getElementById("video");
-    videoSourse.load();
+    let videoSource = document.getElementById("video");
+    videoSource.load();
 
 
 }
@@ -197,8 +191,8 @@ function moveRight(event) {
     // let ogv = document.getElementById("ogv/ogg");
     // ogv.src= "Media/" + current.curVal + ".OGV";
 
-    let videoSourse = document.getElementById("video");
-    videoSourse.load();
+    let videoSource = document.getElementById("video");
+    videoSource.load();
 
 }
 
