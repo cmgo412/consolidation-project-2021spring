@@ -1,0 +1,54 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="1920" height="1080" fill="black"/>
+<rect width="1920" height="540" fill="url(#paint0_linear)"/>
+<circle cx="1247" cy="339" r="181" fill="url(#paint1_linear)"/>
+<path d="M1807 462L1920 538.913V565L0 562.993H-55L113 317.5L236 462L378 317.5L451.5 447.5L562.5 298.5L659.5 388.5L768.5 298.5L870 419.515L1012 298.5L1092.5 419.515L1170.5 358L1263 462L1364.5 407.5L1440 495C1466.04 484.747 1500.5 428.372 1523 419.515L1579.5 495L1712 388.5L1807 462Z" fill="#390E37"/>
+<rect y="6" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="22.3633" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="38.7266" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="55.0899" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="71.4532" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="87.8165" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="104.18" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="120.543" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="136.906" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="153.27" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="169.633" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="185.996" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="202.36" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="218.723" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="235.086" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="251.449" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="267.813" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="284.176" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="300.539" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="316.903" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="333.266" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="349.629" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="365.993" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="382.356" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="398.719" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="415.082" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="431.446" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="447.809" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="464.172" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="480.536" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="496.899" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<rect y="513.262" width="1939" height="6.73783" fill="black" fill-opacity="0.04"/>
+<path d="M133.5 448.5L0 538.5V564.5L1920 562.5V381L1906 511L1795 381L1669.5 511L1572.5 419.5L1485 511L1412 433.5L1336.5 511L1232 358L1111.5 448.5L980 301.5L849 433.5L697.5 265.5L541.5 433.5L410 375C358.667 419.667 253.9 509.4 241.5 511C229.1 512.6 164 470 133.5 448.5Z" fill="black" stroke="black"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="960" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="1" stop-color="#61195D"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1247" y1="158" x2="1247" y2="520" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFA5FA"/>
+<stop offset="1" stop-color="#330230" stop-opacity="0.8"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="1920" height="1080" fill="white"/>
+</clipPath>
+</defs>
+</svg>

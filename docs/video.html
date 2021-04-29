@@ -15,35 +15,38 @@
             <li class='topbutton'><a class="active" href="video.html">Video</a></li>
             </ul>
         </div>
-        <div class='bodybox'>
-            <div class='tv_container'>
-                <video id="video" width="460" height="370" autoplay="true">
-                    <!-- MP4 must be first for iPad! -->
-                    <source id="mp4" src="Media/footage/choice1_start.MP4" type="video/mp4" /><!-- WebKit video    -->
-                    <!-- <source id="webm" src="Media/v1.webm" type="video/webm" />Chrome / Newest versions of Firefox and Opera -->
-                    <!-- <source id="ogv/ogg" src="Media/v1.OGV" type="video/ogg" />Firefox / Opera -->
 
-                    <!-- For time constraint reasons, this portion was cut -->
-                    <!-- fallback to Flash:
-                    <object width="640" height="384" type="application/x-shockwave-flash" data="__FLASH__.SWF">
-                        Firefox uses the `data` attribute above, IE/Safari uses the param below
-                        <param name="movie" value="__FLASH__.SWF" />
-                        <param name="flashvars" value="image=__POSTER__.JPG&amp;file=Media/v1.MP4" />
-                        <!-- fallback image. note the title field below, put the title of the video there
-                        <img src="Media/v1.JPG" width="640" height="360" alt="__TITLE__"
-                            title="No video playback capabilities, please try a different browser/device??" />
-                    </object> -->
-                    <!-- <p> <strong>Download Video:</strong>
-                    Closed Format:  <a href="Media/v1.MP4">"MP4"</a>
-                    Open Format:    <a href="Media/v1.OGV">"OGG"</a>
-                </p> -->
-                </video>
+        <div class='bodybox'>
+            <div class ="blackbox">
+                <div class='tv_container'>
+                    <video id="video" width="460" height="370" autoplay="true">
+                        <!-- MP4 must be first for iPad! -->
+                        <source id="mp4" src="Media/footage/choice1_start.MP4" type="video/mp4" /><!-- WebKit video    -->
+                        <!-- <source id="webm" src="Media/v1.webm" type="video/webm" />Chrome / Newest versions of Firefox and Opera -->
+                        <!-- <source id="ogv/ogg" src="Media/v1.OGV" type="video/ogg" />Firefox / Opera -->
+    
+                        <!-- For time constraint reasons, this portion was cut -->
+                        <!-- fallback to Flash:
+                        <object width="640" height="384" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+                            Firefox uses the `data` attribute above, IE/Safari uses the param below
+                            <param name="movie" value="__FLASH__.SWF" />
+                            <param name="flashvars" value="image=__POSTER__.JPG&amp;file=Media/v1.MP4" />
+                            <!-- fallback image. note the title field below, put the title of the video there
+                            <img src="Media/v1.JPG" width="640" height="360" alt="__TITLE__"
+                                title="No video playback capabilities, please try a different browser/device??" />
+                        </object> -->
+                        <!-- <p> <strong>Download Video:</strong>
+                        Closed Format:  <a href="Media/v1.MP4">"MP4"</a>
+                        Open Format:    <a href="Media/v1.OGV">"OGG"</a>
+                    </p> -->
+                    </video>
+                </div>
             </div>
 
             <div class="topbar"></div>
                 <button class="button" id ="start" onclick="start(event)">Start</button>
-                <button  class="buttonHidden" id="left" onclick="moveLeft(event)">Stay in Your Room</button>
-                <button  class="buttonHidden" id="right" onclick="moveRight(event)">Leave Your Room</button>
+                <button class="buttonHidden" id="left" onclick="moveLeft(event)">Stay in Your Room</button>
+                <button class="buttonHidden" id="right" onclick="moveRight(event)">Leave Your Room</button>
             </div>
         </div>
     </body> 
